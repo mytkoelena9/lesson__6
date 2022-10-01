@@ -1,0 +1,235 @@
+
+
+  @font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/Comforter-Regular.woff2") format("woff2"), url("../fonts/Comforter-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;}
+
+	@font-face {
+   
+	font-family: "Santens Regular";
+	src: url("../fonts/SantensA1.woff2") format("woff2"), url("../fonts/SantensA1.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;}
+
+	@font-face {
+    font-family: "Lato";
+	src: url("../fonts/lato-v23-latin-regular.woff2") format("woff2"), url("../fonts/lato-v23-latin-regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;}
+
+	@font-face {
+    font-family: "Lato";
+	src: url("../fonts/Lato-Heavy.woff2") format("woff2"), url("../fonts/Lato-HeavyItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: bold;}
+			
+
+
+	body{
+	max-width: 810px;
+	font-weight: 400;
+	font-size: 16px;
+
+	font-family: "lato";
+	font-style: normal;
+	color: #424551;
+	
+	line-height: 26px;}
+	
+	
+	
+	h1{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1E212C;
+	margin-bottom: 40px;}
+	
+	img{
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 32px;}
+
+	
+	.ferst-container,
+	.third-container{
+	font-weight:700;
+	font-size: 20px;
+	line-height:30px;
+	color: #1E212C;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 48px;}
+
+	
+	.second-container
+	{margin-bottom: 24px ;}
+
+	.next-second-container
+	{margin-bottom: 48px;}
+	
+	.third-container
+	{
+	padding-left: 58px;
+	text-shadow: none;
+	margin-bottom: 48px;}
+	
+	.fourth-container
+	{margin-bottom: 24px;}
+	
+	ul{margin-bottom: 24px;}
+	
+	li{margin: 0 0 4px 32px;}
+	
+	.fourth-list
+	{
+	margin-left: 24px;}
+
+	.fifth-container {margin-bottom: 50px;}
+	
+
+
+
+	.block-shit-i-know {
+	box-shadow: 12px 10px 6px rgb(29, 27, 27);
+	display: block;
+	
+	background-color: #678edb;
+	
+	padding: 50px;}
+
+.title
+	{ 
+	border:5px solid #582a61;
+	border-radius: 100px 100px 90px 5px;
+	box-shadow: 9px 13px 2px rgb(0, 0, 0);
+	padding: 30px;
+
+	
+	background-color: #ee6bac;
+	overflow:auto;
+	max-width: 700px;
+	font-size: 60px;	
+	margin-bottom: 100px;
+	
+	
+	line-height: 45px;
+	letter-spacing: 4px;
+	font-family:"CircularStd";
+	font-weight: 500;
+	font-style: normal;}
+
+
+
+	
+	.img-kris {
+	display:inline-block;
+	max-width: 100%;
+	margin-left: 50px;
+	
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+
+	outline: solid rgb(247, 239, 239);
+	box-shadow: 12px 20px 6px #111011;
+	border:5px solid  #dd3497;
+	font-family: 'Comforter';}
+
+
+	.kris-inst {
+	display: inline-block;
+	font-size: 140px;
+	padding: 30px;
+	width: 200px;
+	
+	font-family:"CircularStd";
+	font-weight: 400;
+	font-style: normal;}
+
+
+	.dima-block{
+		max-width: 500px;
+	}
+
+	.img-dima {
+	display:inline-block;
+	max-width: 100%;
+		
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+	margin-left: 300px;
+
+	box-shadow: 12px 20px 6px #111011;
+	border:5px solid  #dd3497;
+	margin-bottom: -100px;
+	outline: solid rgb(247, 239, 239);	}
+
+
+		.dima-inst {
+		display:inline-block;
+		font-size: 140px;
+		margin-left: 50px;
+		margin-bottom: 180px;
+
+		font-family:"CircularStd";
+		font-weight: 400;
+		font-style: normal;}
+
+
+
+	.content-block{
+	display: block;
+	padding: 30px;
+	color: #fff;
+	height: 230px;
+	margin-left: 50px;
+
+	overflow: scroll;
+	border:8px double #111011;
+	background-color: #ee6bac;
+	box-shadow:inset  12px 20px 6px rgb(241, 241, 241);}
+
+	
+	.content-text
+	{font-size: 35px;
+	line-height: 38px;
+	text-shadow: 8px 2px 5px #000;
+
+	text-align:right;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+
+
+	font-family: "Santens Regular";
+	font-weight: 400;
+		font-style: normal;
+		margin-bottom: 30px;
+}
+
+
+	.logo{
+		display: inline-block;
+	
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+		
+		opacity:0.9;
+		
+		background-color: #fdfffb;
+		padding: 5px;
+	
+	
+		box-shadow: 0 15px 0 #000;
+		transition: all 0.3s ease 0s;}
+
+		.logo:hover{
+		margin-top: 3px;
+		box-shadow: 0 2px 0 #000;}
